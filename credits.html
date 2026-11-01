@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Credits | BodyWise</title>
+<meta name="description" content="Ride a tiny imaginary pod through the real human body. Drift past red blood cells at their real size, watch a heart valve shut and see how we hear. 14 narrated journeys, each with a short challenge, at four reading depths from Quick Look to Expert. The dashboard always tells you when time is slowed ">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav><a href="index.html">Home</a> <a href="privacy.html">Privacy policy</a> <a href="credits.html" aria-current="page">Credits</a> <a href="support.html">Help and support</a> <a href="terms.html">Terms of use</a></nav></header>
+<main>
+<h1>BodyWise credits</h1>
+<p>This page names the work of others in BodyWise (BodyWise: Inside the Real Human Body): the files, the software, the voice model and the sources of the facts. It is free to read, with no login.</p>
+<ul>
+<li>These third-party files keep their own licences. The store terms do not limit your rights under the licences of the third-party material listed here.</li>
+<li>The developer and publisher is dav3studios.</li>
+</ul>
+<h2>Files under attribution licences</h2>
+<p>These files are in the app under CC BY 4.0, the Open Data Commons Attribution License or the Open Government Licence. Their licences ask for this notice. The app uses no material under Licence Ouverte.</p>
+<h3>CC BY 4.0</h3>
+<p>Licence: Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/</p>
+<table>
+<thead>
+<tr>
+<th>Shipped file</th>
+<th>Title</th>
+<th>Author</th>
+<th>Original source</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>assets/models/heart/heart_hra.glb</code></td>
+<td>3D Reference Organ for Heart, Male v1.2, https://doi.org/10.48539/HBM373.VSTV.568</td>
+<td>Kristen Browne and Heidi Schlehlein, Human Reference Atlas (HuBMAP). Made with data from the Visible Human Project, courtesy of the U.S. National Library of Medicine.</td>
+<td>https://3d.nih.gov/entries/3DPX-021000 (download: https://cdn.humanatlas.io/digital-objects/ref-organ/heart-male/v1.2/assets/VH_M_Heart.glb)</td>
+<td>Reduced from 164,107 to 40,385 triangles. Part names, real size in metres and the source materials are kept.</td>
+</tr>
+<tr>
+<td><code>assets/models/heart/vasculature_hra.glb</code></td>
+<td>3D Reference Organ for Blood Vasculature, Male v1.3, https://doi.org/10.48539/HBM473.XTPP.725</td>
+<td>Kristen Browne and Heidi Schlehlein, Human Reference Atlas (HuBMAP). Made with data from the Visible Human Project, courtesy of the U.S. National Library of Medicine.</td>
+<td>https://cdn.humanatlas.io/digital-objects/ref-organ/blood-vasculature-male/v1.3/</td>
+<td>Reduced from 416,532 to 44,966 triangles. Vessel names, real size in metres and the source materials are kept.</td>
+</tr>
+<tr>
+<td><code>assets/journeys/thumbs/heartbeat.png</code></td>
+<td>Menu picture of the Heartbeat journey</td>
+<td>A render of <code>heart_hra.glb</code> (above) by the BodyWise project</td>
+<td>https://3d.nih.gov/entries/3DPX-021000</td>
+<td>Rendered in the app's scanner view and cropped to a 16:9 menu picture.</td>
+</tr>
+<tr>
+<td><code>assets/data/ecg_normal_beat.json</code></td>
+<td>PTB-XL v1.0.3, record 00033 (ecg_id 33), https://doi.org/10.13026/kfzx-aw45</td>
+<td>Wagner P, Strodthoff N, Bousseljot R, Samek W, Schaeffter T (PhysioNet)</td>
+<td>https://physionet.org/content/ptb-xl/1.0.3/</td>
+<td>One lead II beat (RR 0.800 s), 0.5 to 40 Hz band-pass, straight baseline removed, values in mV.</td>
+</tr>
+</tbody>
+</table>
+<h3>ODC-By 1.0</h3>
+<p>Licence: Open Data Commons Attribution License v1.0, https://opendatacommons.org/licenses/by/1-0/</p>
+<p>Database: PhysioNet/Computing in Cardiology Challenge 2016, https://physionet.org/content/challenge-2016/1.0.0/</p>
+<p>Cite: Liu C, Springer D, Li Q, Moody B, et al. An open access database for the evaluation of heart sound algorithms. Physiol Meas. 2016, 37(12):2181-2213. Goldberger A, et al. PhysioBank, PhysioToolkit, and PhysioNet. Circulation 2000, 101(23):e215-e220.</p>
+<table>
+<thead>
+<tr>
+<th>Shipped file</th>
+<th>Title</th>
+<th>Original source</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>assets/audio/body/heart_sounds_normal.ogg</code></td>
+<td>Heart sound recording a0019</td>
+<td>https://physionet.org/files/challenge-2016/1.0.0/training-a/a0019.wav</td>
+<td>An 8-beat loop cut from 11.285 s to 18.205 s. 20 to 450 Hz band-pass, soft noise gate, resampled from 2 kHz to 44.1 kHz, levelled to -20 LUFS.</td>
+</tr>
+<tr>
+<td><code>assets/audio/body/heart_beat_single.ogg</code></td>
+<td>Heart sound recording a0019</td>
+<td>https://physionet.org/files/challenge-2016/1.0.0/training-a/a0019.wav</td>
+<td>One beat cut from 11.304 s to 12.170 s, with the same processing.</td>
+</tr>
+<tr>
+<td><code>assets/audio/body/heart_sounds_meta.json</code></td>
+<td>Notes on the two clips above</td>
+<td>https://physionet.org/content/challenge-2016/1.0.0/</td>
+<td>Our measurement notes: the record, the time windows and the beat intervals.</td>
+</tr>
+</tbody>
+</table>
+<h3>Open Government Licence v3.0</h3>
+<p>Licence: Open Government Licence v3.0, https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</p>
+<p>Contains public sector information licensed under the Open Government Licence v3.0. Crown copyright.</p>
+<table>
+<thead>
+<tr>
+<th>Shipped file</th>
+<th>Title</th>
+<th>Author</th>
+<th>Original source</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>content/curriculum.json</code></td>
+<td>National curriculum in England: science programmes of study (key stages 1 to 3)</td>
+<td>Department for Education</td>
+<td>https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study</td>
+<td>The statements are quoted word for word. We chose the statements that fit the journeys and gave each one an id.</td>
+</tr>
+<tr>
+<td><code>content/curriculum.json</code></td>
+<td>GCSE combined science subject content (DFE-00351-2014)</td>
+<td>Department for Education</td>
+<td>https://assets.publishing.service.gov.uk/media/5cd2b8b4ed915d50b6c44ffa/Combined_science_GCSE_updated_May_2019.pdf</td>
+<td>As above.</td>
+</tr>
+<tr>
+<td><code>content/facts.json</code> (Growing Up facts <code>gu_life_stages</code>, <code>gu_body_names</code> and <code>gu_periods_start</code>, and second quotes)</td>
+<td>Relationships Education, Relationships and Sex Education (RSE) and Health Education: statutory guidance (2025), and the science programmes of study</td>
+<td>Department for Education</td>
+<td>https://assets.publishing.service.gov.uk/media/6970e7e67e827090d02d42e0/Relationships_education_relationships_and_sex_education__RSE__and_health_education__for_intro_1_September_2026_.pdf</td>
+<td>Short quotes, word for word, used as the source of a fact. The app's own text says the fact in our words.</td>
+</tr>
+</tbody>
+</table>
+<h2>Other files in the app</h2>
+<p>Public domain and CC0 files need no notice. We name them as a courtesy.</p>
+<table>
+<thead>
+<tr>
+<th>Files</th>
+<th>Made by</th>
+<th>Licence</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>assets/images/micrographs/sem_blood_cells.jpg</code></td>
+<td>Bruce Wetzel and Harry Schaefer, National Cancer Institute</td>
+<td>Public domain</td>
+<td>https://commons.wikimedia.org/wiki/File:SEM_blood_cells.jpg</td>
+</tr>
+<tr>
+<td><code>assets/images/micrographs/sem_t_lymphocyte.jpg</code></td>
+<td>NIAID/NIH</td>
+<td>Public domain</td>
+<td>https://commons.wikimedia.org/wiki/File:Healthy_Human_T_Cell.jpg</td>
+</tr>
+<tr>
+<td><code>assets/images/micrographs/sem_neutrophil_mrsa.jpg</code></td>
+<td>National Institute of Allergy and Infectious Diseases (NIAID), NIH</td>
+<td>Public domain</td>
+<td>https://commons.wikimedia.org/wiki/File:Human_neutrophil_ingesting_MRSA.jpg</td>
+</tr>
+<tr>
+<td><code>assets/images/micrographs/sem_blood_clot.jpg</code></td>
+<td>Janice Carr, CDC Public Health Image Library</td>
+<td>Public domain</td>
+<td>https://commons.wikimedia.org/wiki/File:Blood_clot_in_scanning_electron_microscopy.jpg</td>
+</tr>
+<tr>
+<td><code>assets/audio/body/heartbeat_60bpm_freesound.ogg</code></td>
+<td>FenrirFangs (Freesound)</td>
+<td>CC0 1.0</td>
+<td>https://freesound.org/people/FenrirFangs/sounds/213181/</td>
+</tr>
+<tr>
+<td><code>assets/audio/body/breathing_slow_then_fast.ogg</code></td>
+<td>exe2be (Freesound)</td>
+<td>CC0 1.0</td>
+<td>https://freesound.org/people/exe2be/sounds/512741/</td>
+</tr>
+<tr>
+<td><code>assets/audio/body/breathing_variations.ogg</code></td>
+<td>launemax (Freesound)</td>
+<td>CC0 1.0</td>
+<td>https://freesound.org/people/launemax/sounds/274769/</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/rbc_lod0.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/rbc_lod1.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/rbc_lod2.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/rbc_parachute.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/platelet.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/capillary_segment.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/cells/arteriole_wall.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_interior.glb</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_albedo.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_light.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_lit.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_normal.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_orm.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_bake.json</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_interior_pod_albedo.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/models/pod/pod_interior_pod_lit.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/journeys/thumbs/red_cell.png</code></td>
+<td>BodyWise project</td>
+<td>CC0 1.0</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>assets/data/antibody_1igt.json</code></td>
+<td>Harris LJ, Larson SB, Hasel KW, McPherson A (RCSB Protein Data Bank entry 1IGT)</td>
+<td>CC0 1.0</td>
+<td>https://www.rcsb.org/structure/1IGT</td>
+</tr>
+<tr>
+<td><code>assets/data/move_6kn8.json</code></td>
+<td>Yamada Y, Namba K, Fujii T (RCSB Protein Data Bank entry 6KN8)</td>
+<td>CC0 1.0</td>
+<td>https://www.rcsb.org/structure/6KN8</td>
+</tr>
+<tr>
+<td><code>assets/data/move_2mys.json</code></td>
+<td>Rayment I, Holden HM (RCSB Protein Data Bank entry 2MYS)</td>
+<td>CC0 1.0</td>
+<td>https://www.rcsb.org/structure/2MYS</td>
+</tr>
+<tr>
+<td><code>assets/images/micrographs/nih_rods_cones.jpg</code></td>
+<td>Johnny Tam, National Eye Institute, NIH (NIH Image Gallery)</td>
+<td>Public domain</td>
+<td>https://commons.wikimedia.org/wiki/File:Rods_and_Cones_in_Retina_(51175951237).jpg</td>
+</tr>
+<tr>
+<td><code>assets/data/nucleosome_3afa.json</code></td>
+<td>Tachiwana H, Kagawa W, Osakabe A, Koichiro K, Shiga T, Kimura H, Kurumizaka H (RCSB Protein Data Bank entry 3AFA)</td>
+<td>CC0 1.0</td>
+<td>https://www.rcsb.org/structure/3AFA</td>
+</tr>
+<tr>
+<td><code>assets/data/ribosome_4ug0.json</code></td>
+<td>Khatter H, Myasnikov AG, Natchiar SK, Klaholz BP (RCSB Protein Data Bank entry 4UG0)</td>
+<td>CC0 1.0</td>
+<td>https://www.rcsb.org/structure/4UG0</td>
+</tr>
+<tr>
+<td>17 files in <code>assets/audio/music/</code></td>
+<td>BodyWise project (procedural score, engine/tools/audio/music with tools/music_cues.py)</td>
+<td>own work</td>
+<td>our own</td>
+</tr>
+<tr>
+<td>500 files in <code>assets/audio/narration/</code></td>
+<td>BodyWise project. Voice made with Kokoro-82M (hexgrad, Apache License 2.0), voice bm_george</td>
+<td>own work</td>
+<td>our own</td>
+</tr>
+<tr>
+<td>1492 files in <code>assets/audio/voice/</code></td>
+<td>BodyWise project. Voice made with Kokoro-82M (hexgrad, Apache License 2.0), voice bm_george</td>
+<td>own work</td>
+<td>our own</td>
+</tr>
+<tr>
+<td>5 files in <code>assets/icons/</code></td>
+<td>BodyWise project (dav3studios)</td>
+<td>own work</td>
+<td>our own</td>
+</tr>
+<tr>
+<td><code>engine/ui/data/notices/software_notices.json</code></td>
+<td>dav3studios (the list of notices)</td>
+<td>own work</td>
+<td>our own</td>
+</tr>
+</tbody>
+</table>
+<h2>Fonts and interface sounds</h2>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Files in the app</th>
+<th>Made by</th>
+<th>Licence</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atkinson Hyperlegible</td>
+<td><code>engine/ui/theme/fonts/AtkinsonHyperlegible-Bold.ttf</code>, <code>engine/ui/theme/fonts/AtkinsonHyperlegible-Regular.ttf</code></td>
+<td>Braille Institute of America, Inc.</td>
+<td>SIL OFL 1.1 (https://openfontlicense.org)</td>
+<td>https://github.com/google/fonts/tree/main/ofl/atkinsonhyperlegible</td>
+</tr>
+<tr>
+<td>Ux Reading (Atkinson Hyperlegible with a plain zero)</td>
+<td><code>engine/ui/theme/fonts/UxReading-Bold.ttf</code>, <code>engine/ui/theme/fonts/UxReading-Regular.ttf</code></td>
+<td>Braille Institute of America, Inc. The plain zero is a change made by our engine.</td>
+<td>SIL OFL 1.1 (https://openfontlicense.org)</td>
+<td>https://github.com/google/fonts/tree/main/ofl/atkinsonhyperlegible</td>
+</tr>
+<tr>
+<td>Andika</td>
+<td><code>engine/ui/theme/fonts/Andika-Bold.ttf</code>, <code>engine/ui/theme/fonts/Andika-Regular.ttf</code></td>
+<td>SIL International</td>
+<td>SIL OFL 1.1 (https://openfontlicense.org)</td>
+<td>https://github.com/google/fonts/tree/main/ofl/andika</td>
+</tr>
+<tr>
+<td>The engine's interface sounds</td>
+<td>11 files in <code>engine/audio/sounds/</code></td>
+<td>dav3studios (made by a program, no recordings)</td>
+<td>own work</td>
+<td>our own</td>
+</tr>
+</tbody>
+</table>
+<h2>Store art and trailer</h2>
+<p>The store pictures and the trailer are our own work, made from the app itself (<code>tools/store/</code>). The covers and the icon show only our own red cell and platelet models. The screenshots and the trailer are pictures of the app, so they show some of the files above. This table names the files under attribution licences that they show, with the licence and the changes. They also show public-domain micrographs (screenshots 1 and 6, and the trailer's eye shot) and a CC0 PDB structure (screenshot 8, and the trailer's cell shot). The trailer's sound is the app's own title music.</p>
+<table>
+<thead>
+<tr>
+<th>Work</th>
+<th>Where it shows</th>
+<th>Made by</th>
+<th>Licence</th>
+<th>Changes</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3D Reference Organ for Heart, Male v1.2, Kristen Browne and Heidi Schlehlein, Human Reference Atlas (HuBMAP), https://doi.org/10.48539/HBM373.VSTV.568, CC BY 4.0. Made with data from the Visible Human Project, courtesy of the U.S. National Library of Medicine.</td>
+<td>Screenshot 3 (the heart scanner view) and the trailer's Heartbeat shot</td>
+<td>Kristen Browne; Heidi Schlehlein (Human Reference Atlas, HuBMAP); data from the Visible Human Male, U.S. National Library of Medicine</td>
+<td>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</td>
+<td>decimated from 164,107 to 40,385 triangles (Blender collapse decimate, tools/blender/decimate_glb.py); part names and real size in metres kept; source materials kept. The store media show it as the app shows it, with no further change.</td>
+<td>https://3d.nih.gov/entries/3DPX-021000</td>
+</tr>
+<tr>
+<td>Human Reference Atlas 3D Reference Organ for Heart, Male v1.2 (HuBMAP), CC BY 4.0. Made with data from the Visible Human Project, courtesy of the U.S. National Library of Medicine. Rendered in the BodyWise scanner view.</td>
+<td>Screenshot 2 and the trailer's menu shot (the Heartbeat menu picture)</td>
+<td>Kristen Browne and Heidi Schlehlein (Human Reference Atlas, HuBMAP); render and crop by the BodyWise project</td>
+<td>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</td>
+<td>rendered in the app's scanner view and cropped to a 16:9 menu thumbnail. The store media show it as the app shows it, with no further change.</td>
+<td>https://3d.nih.gov/entries/3DPX-021000</td>
+</tr>
+<tr>
+<td>PTB-XL v1.0.3 record 00033 (ecg_id 33), https://doi.org/10.13026/kfzx-aw45, CC BY 4.0</td>
+<td>Screenshots 1, 3, 4, 5, 6, 7 and 8 and every pod shot of the trailer (the pod's ECG screen, labelled "ECG: a real recording (PTB-XL)")</td>
+<td>Wagner P, Strodthoff N, Bousseljot R, Samek W, Schaeffter T</td>
+<td>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), licence page https://physionet.org/content/ptb-xl/view-license/1.0.3/</td>
+<td>one lead II beat (RR 0.800 s) from record 00033, 0.5-40 Hz band-pass, straight baseline removed, values in mV (tools/assets/extract_ecg_beat.py). The store media show it as the app shows it, with no further change.</td>
+<td>https://physionet.org/content/ptb-xl/1.0.3/</td>
+</tr>
+</tbody>
+</table>
+<h2>The voice</h2>
+<p>The narrator's voice is computer-generated. It is made with Kokoro-82M (hexgrad, Apache License 2.0, https://github.com/hexgrad/kokoro), voice bm_george.</p>
+<h2>Sources of the facts</h2>
+<p>Every fact in the app names its source on its card. These are the sites, with the number of facts that use each one. Sources are named to show where a fact comes from. No source made, checked or approved the app.</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Site</th>
+<th>Facts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PubMed Central (peer-reviewed papers)</td>
+<td>pmc.ncbi.nlm.nih.gov</td>
+<td>144</td>
+</tr>
+<tr>
+<td>MSD Manual</td>
+<td>msdmanuals.com</td>
+<td>125</td>
+</tr>
+<tr>
+<td>BioNumbers (Harvard Medical School)</td>
+<td>bionumbers.hms.harvard.edu</td>
+<td>56</td>
+</tr>
+<tr>
+<td>-</td>
+<td>ebi.ac.uk</td>
+<td>56</td>
+</tr>
+<tr>
+<td>NHS</td>
+<td>nhs.uk</td>
+<td>38</td>
+</tr>
+<tr>
+<td>TeachMeAnatomy</td>
+<td>teachmeanatomy.info</td>
+<td>24</td>
+</tr>
+<tr>
+<td>-</td>
+<td>genome.gov</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Cell Biology by the Numbers</td>
+<td>book.bionumbers.org</td>
+<td>20</td>
+</tr>
+<tr>
+<td>-</td>
+<td>niddk.nih.gov</td>
+<td>16</td>
+</tr>
+<tr>
+<td>-</td>
+<td>teachmephysiology.com</td>
+<td>14</td>
+</tr>
+<tr>
+<td>British Heart Foundation</td>
+<td>bhf.org.uk</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Klabunde, Cardiovascular Physiology Concepts</td>
+<td>cvphysiology.com</td>
+<td>13</td>
+</tr>
+<tr>
+<td>-</td>
+<td>qbi.uq.edu.au</td>
+<td>10</td>
+</tr>
+<tr>
+<td>-</td>
+<td>webvision.pitt.edu</td>
+<td>8</td>
+</tr>
+<tr>
+<td>-</td>
+<td>ncbi.nlm.nih.gov</td>
+<td>6</td>
+</tr>
+<tr>
+<td>RCSB Protein Data Bank (PDB-101)</td>
+<td>pdb101.rcsb.org</td>
+<td>6</td>
+</tr>
+<tr>
+<td>-</td>
+<td>my.clevelandclinic.org</td>
+<td>5</td>
+</tr>
+<tr>
+<td>-</td>
+<td>rcsb.org</td>
+<td>5</td>
+</tr>
+<tr>
+<td>-</td>
+<td>assets.publishing.service.gov.uk</td>
+<td>4</td>
+</tr>
+<tr>
+<td>arXiv (research papers)</td>
+<td>arxiv.org</td>
+<td>3</td>
+</tr>
+<tr>
+<td>American Society of Hematology</td>
+<td>hematology.org</td>
+<td>3</td>
+</tr>
+<tr>
+<td>NHS Blood and Transplant</td>
+<td>blood.co.uk</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Deranged Physiology</td>
+<td>derangedphysiology.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>University of Utah ECG learning centre</td>
+<td>ecg.utah.edu</td>
+<td>2</td>
+</tr>
+<tr>
+<td>US National Heart, Lung, and Blood Institute</td>
+<td>nhlbi.nih.gov</td>
+<td>2</td>
+</tr>
+<tr>
+<td>NIST (US National Institute of Standards and Technology)</td>
+<td>physics.nist.gov</td>
+<td>2</td>
+</tr>
+<tr>
+<td>-</td>
+<td>pressbooks.lib.vt.edu</td>
+<td>2</td>
+</tr>
+<tr>
+<td>-</td>
+<td>alderhey.nhs.uk</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Crossref (journal records)</td>
+<td>api.crossref.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cleveland Clinic Journal of Medicine</td>
+<td>ccjm.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>cinc.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>commons.wikimedia.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>dentalhealth.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>GOV.UK</td>
+<td>gov.uk</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>health.clevelandclinic.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>histologyguide.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>medlineplus.gov</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Nature</td>
+<td>nature.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>s.mriquestions.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>science.nasa.gov</td>
+<td>1</td>
+</tr>
+<tr>
+<td>-</td>
+<td>www2.gwu.edu</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Software in the app</h2>
+<p>The app is made with the Godot Engine and other software. Their licences ask for their notices in every copy. The full notices and licence texts are in the app, under Grown-ups &gt; Credits &gt; Software notices. The app reads Godot's notices from the engine itself, so they match the engine in the app.</p>
+<table>
+<thead>
+<tr>
+<th>Software</th>
+<th>Version</th>
+<th>Made by</th>
+<th>Licence</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Godot Engine</td>
+<td>4.7.2</td>
+<td>Copyright (c) 2014-present Godot Engine contributors (see AUTHORS.md). Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.</td>
+<td>MIT (Expat)</td>
+<td>https://godotengine.org</td>
+</tr>
+<tr>
+<td>Godot OpenXR Vendors plugin</td>
+<td>5.1.0</td>
+<td>Copyright (c) 2022-present Godot XR contributors (see CONTRIBUTORS.md)</td>
+<td>MIT</td>
+<td>https://github.com/GodotVR/godot_openxr_vendors/tree/5.1.0-stable</td>
+</tr>
+<tr>
+<td>Godot Meta Toolkit</td>
+<td>1.0.3</td>
+<td>Copyright (c) 2024-present Meta Platforms, Inc. and affiliates. All rights reserved.</td>
+<td>MIT</td>
+<td>https://github.com/godot-sdk-integrations/godot-meta-toolkit/tree/1.0.3-stable</td>
+</tr>
+<tr>
+<td>Meta Platform SDK loader</td>
+<td>-</td>
+<td>Copyright © Meta Platform Technologies, LLC and its affiliates. All rights reserved.</td>
+<td>Meta Platform Technologies SDK License Agreement (formerly the Oculus SDK License Agreement), effective 25 October 2022, https://developers.meta.com/horizon/licenses/oculussdk/</td>
+<td>https://developers.meta.com/horizon/downloads/package/oculus-platform-sdk/</td>
+</tr>
+<tr>
+<td>OpenXR Loader for Android</td>
+<td>1.1.54</td>
+<td>The Khronos Group, Inc. OpenXR Working Group</td>
+<td>Apache-2.0</td>
+<td>https://github.com/KhronosGroup/OpenXR-SDK-Source</td>
+</tr>
+<tr>
+<td>libc++ (LLVM C++ standard library)</td>
+<td>-</td>
+<td>The LLVM Project contributors (see CREDITS.TXT)</td>
+<td>Apache-2.0 WITH LLVM-exception, and the legacy University of Illinois/NCSA or MIT licence</td>
+<td>https://github.com/llvm/llvm-project/tree/main/libcxx</td>
+</tr>
+<tr>
+<td>AndroidX libraries, Kotlin and kotlinx.coroutines</td>
+<td>-</td>
+<td>The Android Open Source Project; JetBrains</td>
+<td>Apache-2.0</td>
+<td>https://developer.android.com/jetpack/androidx</td>
+</tr>
+</tbody>
+</table>
+<p>The Godot Engine includes third-party parts under their own licences (MIT, Apache 2.0, BSD, zlib, MPL 2.0 and others). Godot lists each one, with its copyright and licence, in https://github.com/godotengine/godot/blob/4.7.2-stable/COPYRIGHT.txt.</p>
+<h2>Our own work</h2>
+<p>The red blood cells, the platelets, the vessel linings, the egg cell, the drawn diagrams, the pod, the narration, the music, the icons and the store art are our own work (dav3studios). The cells, the vessels and the egg are made to published sizes. The diagrams are drawn and not to scale.</p>
+</main>
+<footer><p>BodyWise: Inside the Real Human Body, for Meta Quest. Developer: dav3studios. Publisher: David Lee. Meta Quest is a trademark of Meta Platforms, Inc.</p></footer>
+</body>
+</html>
