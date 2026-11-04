@@ -1,0 +1,44 @@
+# BodyWise: Inside the Real Human Body
+
+> Ride a tiny imaginary pod through the real human body. Drift past red blood cells at their real size, watch a heart valve shut and see how we hear. 14 narrated journeys, each with a short challenge, at four reading depths from Quick Look to Expert. The dashboard always tells you when time is slowed down or sped up. Every fact names its source. For ages 10 and up. No ads, no chat, no accounts, no in-app purchases and no personal data collected.
+
+- Price: USD 3.99 in the US store. The store shows the price for your country.
+- Headset: Meta Quest 3
+- Ages: For ages 10 and up.
+- Where it is sold: The Meta Horizon Store
+- Internet: Not required to use the app
+- Mixed reality: No. The app is fully virtual.
+- Controls: Meta Quest Touch controllers
+- Players: Single player
+- Comfort: Moderate
+- Language: English (UK)
+- Ads, chat and in-app purchases: None. The app collects no personal data.
+- Developer: dav3studios
+
+## Features
+
+- 14 narrated journeys through the real human body, each with a challenge
+- Red blood cells and platelets at their real size, made from published measurements
+- A time label that always says when time is slowed down or sped up
+- Four reading depths, from Quick Look to Expert
+- A computer-generated British voice, with subtitles
+- Every fact names its source
+- Explore a capillary bed and the chambers of a heart
+- Up to six explorers, pictures only, no names
+- No ads, no chat, no accounts, no in-app purchases and no personal data collected
+
+## Links
+
+- [Meta Horizon Store page](https://www.meta.com/experiences/1422814864239103/): buy and install BodyWise
+- [Home](https://dhl84.github.io/bodywise/)
+- [Privacy policy](https://dhl84.github.io/bodywise/privacy.html)
+- [Credits](https://dhl84.github.io/bodywise/credits.html)
+- [Help and support](https://dhl84.github.io/bodywise/support.html)
+- [Terms of use](https://dhl84.github.io/bodywise/terms.html)
+
+## More from dav3studios
+
+- [SpaceWise](https://dhl84.github.io/spacewise/): The real solar system at its true size and in true time, with eight narrated journeys.
+- [BeakerWise](https://dhl84.github.io/beakerwise/): 104 science experiments in biology, chemistry and physics on a virtual lab bench.
+- [EpochWise](https://dhl84.github.io/epochwise/): 45 moments of history on the real land, under the sky computed for that date.
+- [GambitWise](https://dhl84.github.io/gambitwise/): Learn chess and Go one small step at a time, with a spoken coach. Free.
